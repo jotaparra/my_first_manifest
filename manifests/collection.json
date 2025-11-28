@@ -1,0 +1,13 @@
+{
+  "id" : "https://jotaparra.github.io/my_first_manifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in jotaparra/my_first_manifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://jotaparra.github.io/my_first_manifest/manifests/myfirstmanifest2.json",
+    "label" : "Mi primer manifiesto"
+  } ]
+}
