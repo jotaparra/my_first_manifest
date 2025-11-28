@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://jotaparra.github.io/my_first_manifest/manifests/myfirstmanifest2.json",
     "label" : "Mi primer manifiesto"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://jotaparra.github.io/my_first_manifest/manifests/myfirstmanifest.json",
+    "label" : "Mi primer manifiesto"
   } ]
 }
