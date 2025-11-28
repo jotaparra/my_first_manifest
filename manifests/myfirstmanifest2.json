@@ -1,0 +1,84 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://jotaparra.github.io/my_first_manifest/manifests/myfirstmanifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Mi primer manifiesto",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Este es mi primer manifiesto IIIF creado siguiendo el curso de IIIF. Este manifiesto incluye dos imágenes: una fotografía de Hernán Santa Cruz y un manuscrito histórico relacionado con su trabajo en la Comisión Económica para América Latina y el Caribe (CEPAL). La imagen de Hernán Santa Cruz representa su contribución significativa a los derechos humanos y al desarrollo social en América Latina. El manuscrito histórico proporciona una visión adicional de su labor y legado. Ambas imágenes están alojadas en servidores IIIF, lo que permite una visualización flexible y detallada a través de visores compatibles con IIIF.",
+    "@language" : "es"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Autor: CEPAL",
+  "sequences" : [ {
+    "@id" : "http://552ad037-62df-4dcf-84f2-61ae24ea43a0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8d2085b5-6d98-4c14-9701-7e165b3edee6",
+      "@type" : "sc:Canvas",
+      "label" : "Hernán Santa Cruz",
+      "height" : 899,
+      "width" : 645,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://74388318-b3f3-4a34-95e8-38fdb34fd92d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/hsc-eclac_202511%2fHSC_ECLAC.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/hsc-eclac_202511%2fHSC_ECLAC.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 579855,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 899,
+          "width" : 645
+        },
+        "on" : "http://8d2085b5-6d98-4c14-9701-7e165b3edee6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ff4f25ae-19e6-4cb9-9516-78948d8a3556",
+      "@type" : "sc:Canvas",
+      "label" : "Manuscrito",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a31154b7-2ab1-4031-ada7-308c3221031b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://ff4f25ae-19e6-4cb9-9516-78948d8a3556"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
