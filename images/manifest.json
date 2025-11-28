@@ -7,5 +7,87 @@
             "All images loaded in jotaparra/my_first_manifest project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://jotaparra.github.io/my_first_manifest/images/HSC_ECLAC/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "HSC_ECLAC"
+                ]
+            },
+            "height": 899,
+            "width": 645,
+            "items": [
+                {
+                    "id": "https://jotaparra.github.io/my_first_manifest/images/HSC_ECLAC/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://jotaparra.github.io/my_first_manifest/images/HSC_ECLAC/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://jotaparra.github.io/my_first_manifest/images/HSC_ECLAC/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 21,
+                                                "height": 29
+                                            },
+                                            {
+                                                "width": 41,
+                                                "height": 57
+                                            },
+                                            {
+                                                "width": 81,
+                                                "height": 113
+                                            },
+                                            {
+                                                "width": 162,
+                                                "height": 225
+                                            },
+                                            {
+                                                "width": 323,
+                                                "height": 450
+                                            },
+                                            {
+                                                "width": 645,
+                                                "height": 899
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 645,
+                                        "@id": "https://jotaparra.github.io/my_first_manifest/images/HSC_ECLAC",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 899,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://jotaparra.github.io/my_first_manifest/images/HSC_ECLAC/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
